@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	font-family: 'Red Hat Display', sans-serif;
+}
+body{
+	background-color: hsl(225, 100%, 94%);
+}
+#img1{
+	position: absolute;
+	top: 0%;
+    z-index: -1;
+	 width: 1365px;
+}
+.container-card{	
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card{
+
+ 	height: 550px;
+	width: 370px;
+	border-radius: 20px;
+	background-color: white ;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.card img{
+	width: 370px;
+	height: ;
+	border-radius: 8% 8% 0% 0%;
+}
+.container-text{
+	display: inline-block;
+	flex-direction: column;
+	padding: 45px;
+    text-align: center;
+	padding-top: 30px;
+}
+.container-text h1{
+	padding-bottom:10px ;
+	font-size: 25px;
+}
+.container-text p{
+	color: hsl(224, 23%, 55%);
+	font-size: 15px;
+	font-weight: 100;
+}
+.container-plan{
+	display: flex;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+.container-plan img{
+	height: 45px;
+	width: 45px;
+}
+.text-music{
+	padding-left: 25px;
+}
+
+.text-music p{
+	white-space: nowrap;
+	font-weight: 700;
+	padding-left: 1px;
+	font-size: 15px;
+}
+#text4{
+	font-weight: 300;
+	font-size: 15px;
+	padding-left: 5px;
+}
+#text3{
+	color: black;
+}
+a{
+	font-weight: 700;
+	color: blue;
+	font-size: 15px;
+	padding-top:10px;
+	padding-left: 50px;
+
+}
+.container-botao{
+	padding-top: 1px;
+	padding-left: 30px;
+}
+.botao{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+	border-radius: 15px;
+	background-color:  hsl(245, 75%, 52%);
+	height: 50px;
+	width:300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.botao h1{
+	color: white;
+	font-size: 15px;
+}
+.texto h1{
+	color: hsl(224, 23%, 55%);
+	font-size: 14px;
+	margin-left: 105px;
+}
+
+@media screen and (max-width: 600px) {
+	#img1{
+		display: none;
+	}
+}
