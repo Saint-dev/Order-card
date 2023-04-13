@@ -26,7 +26,7 @@ body{
 
 .card{
 
- 	height: 550px;
+ 	height: 585px;
 	width: 370px;
 	border-radius: 20px;
 	background-color: white ;
@@ -43,6 +43,7 @@ body{
 	padding: 45px;
     text-align: center;
 	padding-top: 30px;
+	padding-bottom: 3rem;
 }
 .container-text h1{
 	padding-bottom:10px ;
@@ -53,10 +54,18 @@ body{
 	font-size: 15px;
 	font-weight: 100;
 }
+.card-plan{
+	margin-left: 0px  ;
+	margin-top: 25px;
+	border-radius: 20px;
+	height: 80px;
+	width: 300px;
+	background-color:hsl(225, 100%, 98%);
+}
 .container-plan{
+	padding-top:5%;
+	padding-left: 3%;
 	display: flex;
-	padding-top: 30px;
-	padding-left: 20px;
 }
 .container-plan img{
 	height: 45px;
